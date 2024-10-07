@@ -33,7 +33,7 @@ Follow these steps to set up and run the application on your local machine.
 
 bash
 
-Copy code
+
 
 `git clone https://github.com/andrewbunk/irspublication78.git
 cd irspublication78`
@@ -44,7 +44,7 @@ Navigate to the back-end directory and restore the dependencies:
 
 bash
 
-Copy code
+
 
 `cd IRSPublication78.Server
 dotnet restore`
@@ -57,7 +57,7 @@ The connection string for SQL Server is stored in the user secrets for the back-
 
     bash
 
-    Copy code
+    
 
     `dotnet user-secrets init`
 
@@ -65,7 +65,7 @@ The connection string for SQL Server is stored in the user secrets for the back-
 
     bash
 
-    Copy code
+    
 
     `dotnet user-secrets set "ConnectionStrings:IrsPublication78" "Your_Connection_String_Here"`
 
@@ -75,7 +75,7 @@ The connection string for SQL Server is stored in the user secrets for the back-
 
     json
 
-    Copy code
+    
 
     `{
       "ConnectionStrings": {
@@ -87,7 +87,7 @@ The connection string for SQL Server is stored in the user secrets for the back-
 
     bash
 
-    Copy code
+    
 
     `dotnet ef database update`
 
@@ -97,7 +97,7 @@ You can run the ASP.NET Core back-end using the following command:
 
 bash
 
-Copy code
+
 
 `dotnet run`
 
@@ -109,7 +109,7 @@ Open a new terminal and navigate to the front-end directory:
 
 bash
 
-Copy code
+
 
 `cd irspublication78.client`
 
@@ -117,7 +117,7 @@ Install the necessary packages, including Material-UI:
 
 bash
 
-Copy code
+
 
 `npm install`
 
@@ -127,7 +127,7 @@ Start the React application:
 
 bash
 
-Copy code
+
 
 `npm start`
 
@@ -155,7 +155,7 @@ To run the application in debug mode using Visual Studio:
 
     bash
 
-    Copy code
+    
 
     `npm start`
 
@@ -170,7 +170,7 @@ To create a production build of the React app, run:
 
 bash
 
-Copy code
+
 
 `npm run build`
 
