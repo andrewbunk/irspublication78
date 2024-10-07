@@ -1,0 +1,6 @@
+@IRSPublication78.Server_HostAddress = http://localhost:5277
+
+GET {{IRSPublication78.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
